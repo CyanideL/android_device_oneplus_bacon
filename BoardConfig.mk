@@ -201,4 +201,7 @@ TARGET_LDPRELOAD := libNimsWrap.so
 endif
 endif
 
+# LZMA
+WITH_LZMA_OTA := true
+
 -include vendor/oneplus/bacon/BoardConfigVendor.mk
